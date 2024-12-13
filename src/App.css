@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.chat-placeholder {
+  background-color: #faf8f9;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #999;
+  font-size: 18px;
+  font-style: italic;
+}

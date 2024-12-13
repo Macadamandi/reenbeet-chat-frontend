@@ -1,0 +1,34 @@
+.chat-item__header {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.chat-item {
+  display: flex;
+  align-items: center;
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+  padding-left: 25px !important;
+  border-bottom: 1px solid #cacaca;
+}
+
+.chat-item:hover {
+  cursor: pointer;
+}
+
+.chat-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-item div p {
+  margin: 0;
+}
+
+.chat-item__last-message {
+  color: rgb(172, 172, 174);
+  font-size: 15px;
+}
